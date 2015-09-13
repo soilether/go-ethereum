@@ -21,10 +21,10 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/logger"
+	"github.com/soilether/go-ethereum/logger/glog"
+	"github.com/soilether/go-ethereum/trie"
 )
 
 // StateDBs within the ethereum protocol are used to store anything

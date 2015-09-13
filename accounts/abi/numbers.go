@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/soilether/go-ethereum/common"
 )
 
 var big_t = reflect.TypeOf(&big.Int{})

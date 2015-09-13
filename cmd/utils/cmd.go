@@ -28,14 +28,14 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/core"
+	"github.com/soilether/go-ethereum/core/types"
+	"github.com/soilether/go-ethereum/eth"
+	"github.com/soilether/go-ethereum/logger"
+	"github.com/soilether/go-ethereum/logger/glog"
+	"github.com/soilether/go-ethereum/params"
+	"github.com/soilether/go-ethereum/rlp"
 	"github.com/peterh/liner"
 )
 

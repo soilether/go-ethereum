@@ -34,11 +34,11 @@ import (
 	"errors"
 
 	"code.google.com/p/go-uuid/uuid"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/ecies"
-	"github.com/ethereum/go-ethereum/crypto/secp256k1"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/crypto/ecies"
+	"github.com/soilether/go-ethereum/crypto/secp256k1"
+	"github.com/soilether/go-ethereum/crypto/sha3"
+	"github.com/soilether/go-ethereum/rlp"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/ripemd160"
 )

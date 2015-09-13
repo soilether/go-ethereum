@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/crypto"
 )
 
 type DocServer struct {

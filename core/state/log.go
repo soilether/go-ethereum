@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/rlp"
 )
 
 type Log struct {

@@ -27,10 +27,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/crypto"
+	"github.com/soilether/go-ethereum/logger"
+	"github.com/soilether/go-ethereum/logger/glog"
 )
 
 const (

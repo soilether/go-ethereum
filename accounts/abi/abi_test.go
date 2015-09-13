@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/soilether/go-ethereum/crypto"
 )
 
 const jsondata = `

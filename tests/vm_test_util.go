@@ -24,11 +24,11 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/logger/glog"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/core/state"
+	"github.com/soilether/go-ethereum/core/vm"
+	"github.com/soilether/go-ethereum/ethdb"
+	"github.com/soilether/go-ethereum/logger/glog"
 )
 
 func RunVmTestWithReader(r io.Reader, skipTests []string) error {

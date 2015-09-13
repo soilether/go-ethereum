@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
-	"github.com/ethereum/go-ethereum/rpc/shared"
+	"github.com/soilether/go-ethereum/accounts"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/logger"
+	"github.com/soilether/go-ethereum/logger/glog"
+	"github.com/soilether/go-ethereum/rpc/shared"
 )
 
 // remoteFrontend implements xeth.Frontend and will communicate with an external

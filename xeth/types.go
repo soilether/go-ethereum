@@ -22,13 +22,13 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/core"
+	"github.com/soilether/go-ethereum/core/state"
+	"github.com/soilether/go-ethereum/core/types"
+	"github.com/soilether/go-ethereum/crypto"
+	"github.com/soilether/go-ethereum/p2p"
+	"github.com/soilether/go-ethereum/rlp"
 )
 
 type Object struct {

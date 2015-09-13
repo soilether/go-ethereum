@@ -20,8 +20,8 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/logger/glog"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/logger/glog"
 )
 
 // Global Debug flag indicating Debug VM (full logging)

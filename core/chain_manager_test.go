@@ -26,14 +26,14 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/ethereum/ethash"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/pow"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/soilether/ethash"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/core/state"
+	"github.com/soilether/go-ethereum/core/types"
+	"github.com/soilether/go-ethereum/ethdb"
+	"github.com/soilether/go-ethereum/event"
+	"github.com/soilether/go-ethereum/pow"
+	"github.com/soilether/go-ethereum/rlp"
 	"github.com/hashicorp/golang-lru"
 )
 

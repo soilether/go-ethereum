@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/core/state"
+	"github.com/soilether/go-ethereum/crypto"
+	"github.com/soilether/go-ethereum/ethdb"
 )
 
 const maxRun = 1000

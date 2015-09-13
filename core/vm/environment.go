@@ -20,8 +20,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/core/state"
 )
 
 // Environment is is required by the virtual machine to get information from

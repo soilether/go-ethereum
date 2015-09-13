@@ -17,10 +17,10 @@
 package types
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/ethdb"
+	"github.com/soilether/go-ethereum/rlp"
+	"github.com/soilether/go-ethereum/trie"
 )
 
 type DerivableList interface {

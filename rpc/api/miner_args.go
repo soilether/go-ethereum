@@ -21,8 +21,8 @@ import (
 
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/rpc/shared"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/rpc/shared"
 )
 
 type StartMinerArgs struct {

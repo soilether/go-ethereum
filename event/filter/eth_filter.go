@@ -21,9 +21,9 @@ package filter
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/soilether/go-ethereum/core"
+	"github.com/soilether/go-ethereum/core/state"
+	"github.com/soilether/go-ethereum/event"
 )
 
 type FilterManager struct {

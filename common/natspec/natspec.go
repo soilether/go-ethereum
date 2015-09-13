@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/docserver"
-	"github.com/ethereum/go-ethereum/common/registrar"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/xeth"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/common/docserver"
+	"github.com/soilether/go-ethereum/common/registrar"
+	"github.com/soilether/go-ethereum/crypto"
+	"github.com/soilether/go-ethereum/xeth"
 	"github.com/robertkrimen/otto"
 )
 

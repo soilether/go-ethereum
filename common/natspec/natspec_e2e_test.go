@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/docserver"
-	"github.com/ethereum/go-ethereum/common/registrar"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/ethdb"
-	xe "github.com/ethereum/go-ethereum/xeth"
+	"github.com/soilether/go-ethereum/accounts"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/common/docserver"
+	"github.com/soilether/go-ethereum/common/registrar"
+	"github.com/soilether/go-ethereum/core"
+	"github.com/soilether/go-ethereum/crypto"
+	"github.com/soilether/go-ethereum/eth"
+	"github.com/soilether/go-ethereum/ethdb"
+	xe "github.com/soilether/go-ethereum/xeth"
 )
 
 const (

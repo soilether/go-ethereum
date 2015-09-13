@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/crypto"
 )
 
 type Db map[string][]byte

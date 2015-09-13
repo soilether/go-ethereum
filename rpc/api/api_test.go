@@ -22,11 +22,11 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/common/compiler"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/rpc/codec"
-	"github.com/ethereum/go-ethereum/rpc/shared"
-	"github.com/ethereum/go-ethereum/xeth"
+	"github.com/soilether/go-ethereum/common/compiler"
+	"github.com/soilether/go-ethereum/eth"
+	"github.com/soilether/go-ethereum/rpc/codec"
+	"github.com/soilether/go-ethereum/rpc/shared"
+	"github.com/soilether/go-ethereum/xeth"
 )
 
 func TestParseApiString(t *testing.T) {

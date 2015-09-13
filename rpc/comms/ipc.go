@@ -23,8 +23,8 @@ import (
 
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/rpc/codec"
-	"github.com/ethereum/go-ethereum/rpc/shared"
+	"github.com/soilether/go-ethereum/rpc/codec"
+	"github.com/soilether/go-ethereum/rpc/shared"
 )
 
 type IpcConfig struct {

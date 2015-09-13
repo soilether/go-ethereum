@@ -22,10 +22,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/pow"
+	"github.com/soilether/go-ethereum/common"
+	"github.com/soilether/go-ethereum/crypto/sha3"
+	"github.com/soilether/go-ethereum/logger"
+	"github.com/soilether/go-ethereum/pow"
 )
 
 var powlogger = logger.NewLogger("POW")

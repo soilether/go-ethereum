@@ -21,14 +21,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/ethash"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc/codec"
-	"github.com/ethereum/go-ethereum/rpc/shared"
-	"github.com/ethereum/go-ethereum/xeth"
+	"github.com/soilether/ethash"
+	"github.com/soilether/go-ethereum/core/state"
+	"github.com/soilether/go-ethereum/core/vm"
+	"github.com/soilether/go-ethereum/eth"
+	"github.com/soilether/go-ethereum/rlp"
+	"github.com/soilether/go-ethereum/rpc/codec"
+	"github.com/soilether/go-ethereum/rpc/shared"
+	"github.com/soilether/go-ethereum/xeth"
 	"github.com/rcrowley/go-metrics"
 )
 

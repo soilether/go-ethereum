@@ -17,8 +17,8 @@
 package trie
 
 import (
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/logger/glog"
+	"github.com/soilether/go-ethereum/ethdb"
+	"github.com/soilether/go-ethereum/logger/glog"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 
