@@ -675,19 +675,19 @@ var ETH_UNITS = [
     'Gwei', 
     'szabo', 
     'finney', 
-    'ether', 
+    'soil', 
     'grand', 
-    'Mether', 
-    'Gether', 
-    'Tether', 
-    'Pether', 
-    'Eether', 
-    'Zether', 
-    'Yether', 
-    'Nether', 
-    'Dether', 
-    'Vether', 
-    'Uether' 
+    'Msoil', 
+    'Gsoil', 
+    'Tsoil', 
+    'Psoil', 
+    'Esoil', 
+    'Zsoil', 
+    'Ysoil', 
+    'Nsoil', 
+    'Dsoil', 
+    'Vsoil', 
+    'Usoil' 
 ];
 
 module.exports = {
@@ -748,13 +748,13 @@ var unitMap = {
     'shannon':  '1000000000',
     'szabo':    '1000000000000',
     'finney':   '1000000000000000',
-    'ether':    '1000000000000000000',
-    'kether':   '1000000000000000000000',
+    'soil':    '1000000000000000000',
+    'ksoil':   '1000000000000000000000',
     'grand':    '1000000000000000000000',
     'einstein': '1000000000000000000000',
-    'mether':   '1000000000000000000000000',
-    'gether':   '1000000000000000000000000000',
-    'tether':   '1000000000000000000000000000000'
+    'msoil':   '1000000000000000000000000',
+    'gsoil':   '1000000000000000000000000000',
+    'tsoil':   '1000000000000000000000000000000'
 };
 
 /**
@@ -925,12 +925,12 @@ var toHex = function (val) {
  * Returns value of unit in Wei
  *
  * @method getValueOfUnit
- * @param {String} unit the unit to convert to, default ether
+ * @param {String} unit the unit to convert to, default soil
  * @returns {BigNumber} value of the unit (in Wei)
  * @throws error if the unit is not correct:w
  */
 var getValueOfUnit = function (unit) {
-    unit = unit ? unit.toLowerCase() : 'ether';
+    unit = unit ? unit.toLowerCase() : 'soil';
     var unitValue = unitMap[unit];
     if (unitValue === undefined) {
         throw new Error('This unit doesn\'t exists, please use the one of the following units' + JSON.stringify(unitMap, null, 2));
@@ -939,7 +939,7 @@ var getValueOfUnit = function (unit) {
 };
 
 /**
- * Takes a number of wei and converts it to any other ether unit.
+ * Takes a number of wei and converts it to any other soil unit.
  *
  * Possible units are:
  * - kwei/ada
@@ -947,15 +947,15 @@ var getValueOfUnit = function (unit) {
  * - gwei/shannon
  * - szabo
  * - finney
- * - ether
- * - kether/grand/einstein
- * - mether
- * - gether
- * - tether
+ * - soil
+ * - ksoil/grand/einstein
+ * - msoil
+ * - gsoil
+ * - tsoil
  *
  * @method fromWei
  * @param {Number|String} number can be a number, number string or a HEX of a decimal
- * @param {String} unit the unit to convert to, default ether
+ * @param {String} unit the unit to convert to, default soil
  * @return {String|Object} When given a BigNumber object it returns one as well, otherwise a number
 */
 var fromWei = function(number, unit) {
@@ -973,15 +973,15 @@ var fromWei = function(number, unit) {
  * - gwei/shannon
  * - szabo
  * - finney
- * - ether
- * - kether/grand/einstein
- * - mether
- * - gether
- * - tether
+ * - soil
+ * - ksoil/grand/einstein
+ * - msoil
+ * - gsoil
+ * - tsoil
  *
  * @method toWei
  * @param {Number|String|BigNumber} number can be a number, number string or a HEX of a decimal
- * @param {String} unit the unit to convert from, default ether
+ * @param {String} unit the unit to convert from, default soil
  * @return {String|Object} When given a BigNumber object it returns one as well, otherwise a number
 */
 var toWei = function(number, unit) {

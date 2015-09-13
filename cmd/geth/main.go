@@ -47,7 +47,7 @@ import (
 )
 
 const (
-	ClientIdentifier = "Geth"
+	ClientIdentifier = "Geth (Soil fork)"
 	Version          = "1.1.3"
 	VersionMajor     = 1
 	VersionMinor     = 1
@@ -124,7 +124,7 @@ The output of this command is supposed to be machine-readable.
 
     get wallet import /path/to/my/presale.wallet
 
-will prompt for your password and imports your ether presale account.
+will prompt for your password and imports your soil presale account.
 It can be used non-interactively with the --password option taking a
 passwordfile as argument containing the wallet password in plaintext.
 
